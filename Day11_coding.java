@@ -20,8 +20,6 @@ public class Hari11 {
         
         // Update Nilai dari beberapa variable
         System.out.println("--------------------------------------");
-        var1 = 70;
-        var2 = 75;
         var3 = 30;
         
         System.out.println("Setelah nilai di update: ");
