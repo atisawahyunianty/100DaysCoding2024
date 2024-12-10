@@ -24,8 +24,6 @@ public class Hari100 {
         System.out.print("Masukkan angka kedua: ");
         double angka2 = tisa.nextDouble();
         
-        int hasil = 0;
-        
         switch(pilih){
             case "+":
                 double jumlah = angka1 += angka2;
