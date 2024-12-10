@@ -26,19 +26,19 @@ public class Hari100 {
         
         switch(pilih){
             case "+":
-                double jumlah = angka1 += angka2;
+                double jumlah = angka1 + angka2;
                 System.out.println("Hasil penjumlahan " + angka1 + " dan " + angka2 + " adalah : " + jumlah);
                 break;
             case "-":
-                double kurang = angka1 -= angka2;
+                double kurang = angka1 - angka2;
                 System.out.println("Hasil pengurangan " + angka1 + " dan " + angka2 + " adalah : " + kurang);
                 break;
             case "*":
-                double kali = angka1 *= angka2;
+                double kali = angka1 * angka2;
                 System.out.println("Hasil perkalian " + angka1 + " dan " + angka2 + " adalah : " + kali);
                 break;
             case "/":
-               double bagi = angka1 /= angka2;
+               double bagi = angka1 / angka2;
                System.out.println("Hasil pembagian " + angka1 + " dan " + angka2 + " adalah : " + bagi);
                break;
             default:
